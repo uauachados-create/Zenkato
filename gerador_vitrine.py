@@ -1,160 +1,121 @@
 import json
 import urllib.parse
-import time
 from datetime import datetime
 import requests
-from duckduckgo_search import DDGS
+import time
+import schedule  # <-- Nova biblioteca importada aqui
 
-# Suas Tags de Afiliado oficiais
+# Suas Tags de Afiliado
 TAG_AMAZON = "032018011983-20"
 TAG_MERCADO_LIVRE = "18735177"
 
-# Os 5 nichos exatos do seu site e suas listas base (10 produtos)
+# Suas listas base (10 produtos por nicho)
 NICHOS = {
     "Casa Inteligente": [
-        "Echo Dot Alexa", "Lampada Smart Wi-Fi", "Tomada Inteligente", "Interruptor Touch", 
+        "Echo Dot", "Lampada Smart Wi-Fi", "Tomada Inteligente", "Interruptor Touch", 
         "Camera de Seguranca 360", "Robo Aspirador", "Fechadura Digital", "Fita LED Smart", 
         "Hub de Automacao", "Sensor de Presenca Inteligente"
     ],
     "Beleza & Skincare": [
-        "Kit Skincare Completo", "Serum Vitamina C", "Massageador Facial Jade", "Mascara de Argila", 
+        "Kit Skincare", "Serum Vitamina C", "Massageador Facial Jade", "Mascara de Argila", 
         "Esponja Eletrica Facial", "Acido Hialuronico", "Protetor Solar Facial", "Creme Anti-Idade", 
-        "Oleo Hidratante Corporal", "Kit Pinceis de Maquiagem Profissional"
+        "Oleo Hidratante Corporal", "Kit Pinceis Maquiagem"
     ],
     "Fitness & Office": [
-        "Halteres Emborrachados", "Whey Protein Concentrado", "Creatina Pura Monohidratada", 
-        "Faixas Elasticas Extensoras", "Tapete Yoga Mat", "Cadeira de Escritorio Ergonomica", 
+        "Halteres Emborrachados", "Whey Protein", "Creatina Pura", 
+        "Faixas Elasticas", "Tapete Yoga Mat", "Cadeira Ergonomica", 
         "Suporte para Notebook", "Garrafa Termica Inox", "Mochila Executiva", "Banda de Resistencia"
     ],
     "Pets": [
-        "Fonte Bebedouro Automatica", "Tapete Higienico Caes", "Cama Nuvem Pet", "Arranhador para Gatos", 
-        "Escova Tira Pelos", "Caixa de Transporte", "Brinquedo Mordedor Interativo", "Racao Premium", 
-        "Coleira Peitoral Antipuxao", "Comedouros Elevados"
+        "Fonte Bebedouro Pet", "Tapete Higienico Caes", "Cama Nuvem Pet", "Arranhador para Gatos", 
+        "Escova Tira Pelos", "Caixa de Transporte Pet", "Brinquedo Mordedor", "Racao Premium", 
+        "Coleira Peitoral", "Comedouro Elevado"
     ],
     "Ferramentas": [
-        "Maleta de Ferramentas Completa", "Parafusadeira Furadeira 12V", "Jogo de Chaves de Fenda", 
-        "Trena a Laser Digital", "Kit Chaves de Precisao", "Jogo de Soquetes e Catraca", 
-        "Lanterna Tatica LED Recarregavel", "Alicate Universal Profissional", "Martelo Unha", "Sargentos para Marceneiro"
+        "Maleta de Ferramentas", "Parafusadeira 12V", "Jogo de Chaves de Fenda", 
+        "Trena a Laser Digital", "Kit Chaves de Precisao", "Jogo de Soquetes", 
+        "Lanterna Tatica LED", "Alicate Universal", "Martelo Unha", "Sargentos Marceneiro"
     ]
 }
 
-# Caches para deixar o robô rápido e evitar bloqueios na internet
-CACHE_ML = {}
-CACHE_DDG = {}
-
-def buscar_dados_mercadolivre(nome_produto):
-    if nome_produto in CACHE_ML:
-        return CACHE_ML[nome_produto]
-        
-    print(f"  -> Consultando ML para: {nome_produto}...")
-    termo_busca = urllib.parse.quote(nome_produto)
-    url = f"https://api.mercadolibre.com/sites/MLB/search?q={termo_busca}&limit=1"
-    
-    try:
-        resposta = requests.get(url)
-        dados = resposta.json()
-        
-        if dados.get("results") and len(dados["results"]) > 0:
-            produto = dados["results"][0]
-            link_real = produto["permalink"]
-            separador = "&" if "?" in link_real else "?"
-            
-            resultado = {
-                "titulo": produto["title"],
-                "preco": float(produto["price"]),
-                "imagem": produto["thumbnail"].replace("-I.jpg", "-O.jpg"),
-                "link": f"{link_real}{separador}matt_tool={TAG_MERCADO_LIVRE}"
-            }
-            CACHE_ML[nome_produto] = resultado
-            return resultado
-    except Exception as e:
-        print(f"  [!] Erro ML para {nome_produto}: {e}")
-        
-    return None
-
-def buscar_link_amazon_duckduckgo(nome_produto):
-    if nome_produto in CACHE_DDG:
-        return CACHE_DDG[nome_produto]
-        
-    print(f"  -> Buscando Amazon para: {nome_produto}...")
-    try:
-        query = f"site:amazon.com.br/dp/ {nome_produto}"
-        resultados_txt = DDGS().text(keywords=query, max_results=1)
-        link_afiliado = f"https://www.amazon.com.br/s?k={urllib.parse.quote(nome_produto)}&tag={TAG_AMAZON}" 
-        
-        if resultados_txt:
-            url_real = resultados_txt[0]['href']
-            separador = "&" if "?" in url_real else "?"
-            link_afiliado = f"{url_real}{separador}tag={TAG_AMAZON}"
-            
-        resultados_img = DDGS().images(keywords=nome_produto, max_results=1)
-        imagem_produto = "https://via.placeholder.com/500?text=Imagem+Indisponivel"
-        if resultados_img:
-            imagem_produto = resultados_img[0]['image']
-            
-        resultado_final = {
-            "titulo": f"{nome_produto} (Verificar Modelo)",
-            "preco": 0.0, # MANTIDO COMO NÚMERO PARA NÃO QUEBRAR SEU SITE
-            "imagem": imagem_produto,
-            "link": link_afiliado
-        }
-        
-        CACHE_DDG[nome_produto] = resultado_final
-        time.sleep(1.5)
-        return resultado_final
-        
-    except Exception as e:
-        print(f"  [!] Erro DuckDuckGo para {nome_produto}: {e}")
-        return None
-
-def gerar_vitrine_hibrida():
+def gerar_vitrine_diaria():
     produtos = []
     id_atual = 1
 
-    for nicho, itens_base in NICHOS.items():
-        print(f"\nGerando 50 produtos para o nicho: {nicho}...")
+    for nicho, palavras_chave in NICHOS.items():
+        print(f"\nBuscando ofertas do dia para: {nicho}...")
         
-        # Gera exatamente 50 produtos por categoria (totalizando 250)
-        for i in range(1, 51):
-            # Cicla entre os 10 itens base para chegar a 50
-            base_nome = itens_base[(i - 1) % len(itens_base)]
+        for termo in palavras_chave:
+            # 1. Puxa os 4 melhores/mais baratos anúncios do Mercado Livre para este termo
+            termo_url = urllib.parse.quote(termo)
+            url_ml = f"https://api.mercadolibre.com/sites/MLB/search?q={termo_url}&limit=4"
             
-            # Alterna a plataforma (Ímpar = Amazon, Par = Mercado Livre)
-            if id_atual % 2 != 0:
-                origem = "Amazon"
-                dados = buscar_link_amazon_duckduckgo(base_nome)
-            else:
-                origem = "Mercado Livre"
-                dados = buscar_dados_mercadolivre(base_nome)
+            try:
+                resposta = requests.get(url_ml)
+                dados_ml = resposta.json()
+                
+                if dados_ml.get("results"):
+                    for item in dados_ml["results"]:
+                        link_real = item["permalink"]
+                        separador = "&" if "?" in link_real else "?"
+                        
+                        produtos.append({
+                            "id": id_atual,
+                            "titulo": item["title"],
+                            "preco": float(item["price"]), 
+                            "imagem": item["thumbnail"].replace("-I.jpg", "-O.jpg"), 
+                            "origem": "Mercado Livre",
+                            "nicho": nicho,
+                            "link_vitrine": f"{link_real}{separador}matt_tool={TAG_MERCADO_LIVRE}",
+                            "atualizado_em": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        })
+                        id_atual += 1
+            except Exception as e:
+                print(f"Erro ao buscar {termo} no ML: {e}")
             
-            if not dados:
-                # Fallback de segurança se der erro de conexão
-                dados = {
-                    "titulo": f"{base_nome} - Oferta",
-                    "preco": 0.0,
-                    "imagem": "https://via.placeholder.com/500?text=Imagem+Indisponivel",
-                    "link": f"https://lista.mercadolivre.com.br/{urllib.parse.quote(base_nome)}?matt_tool={TAG_MERCADO_LIVRE}"
-                }
-
+            # 2. Adiciona 1 opção da Amazon para cada termo
             produtos.append({
                 "id": id_atual,
-                "titulo": dados["titulo"],
-                "preco": dados["preco"],
-                "imagem": dados["imagem"],
-                "origem": origem,
+                "titulo": f"{termo} (Verificar Oferta na Amazon)",
+                "preco": 0.0,
+                "imagem": f"https://via.placeholder.com/500?text={termo_url}+Amazon",
+                "origem": "Amazon",
                 "nicho": nicho,
-                "link_vitrine": dados["link"],
+                "link_vitrine": f"https://www.amazon.com.br/s?k={termo_url}&tag={TAG_AMAZON}",
                 "atualizado_em": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             })
             id_atual += 1
+            
+            time.sleep(0.5)
 
     return produtos
 
-if __name__ == "__main__":
-    print("Iniciando robô (250 produtos)...")
-    vitrine_completa = gerar_vitrine_hibrida()
+# Nova função que executa a rotina inteira
+def tarefa_agendada():
+    print(f"\n[{datetime.now().strftime('%H:%M:%S')}] Iniciando garimpo automático de produtos...")
+    vitrine = gerar_vitrine_diaria()
     
     with open("vitrine_produtos.json", "w", encoding="utf-8") as f:
-        json.dump(vitrine_completa, f, ensure_ascii=False, indent=2)
+        json.dump(vitrine, f, ensure_ascii=False, indent=2)
         
-    print(f"\nSucesso absoluto! Vitrine gerada com {len(vitrine_completa)} produtos. Arquivo salvo!")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Arquivo gerado com sucesso! Total: {len(vitrine)} itens.")
+    print("Aguardando até amanhã às 09:00...")
+
+if __name__ == "__main__":
+    print("Robô Zenkato Iniciado!")
+    print("Ele ficará em modo de espera e atualizará sua vitrine todos os dias às 09:00 da manhã.")
+    print("AVISO: Mantenha esta janela aberta para que o relógio interno funcione.\n")
+    
+    # ---------------------------------------------------------
+    # CONFIGURAÇÃO DO RELÓGIO: Define o horário para as 09:00
+    # ---------------------------------------------------------
+    schedule.every().day.at("09:00").do(tarefa_agendada)
+    
+    # Se você quiser testar se está funcionando agora mesmo, 
+    # tire o "#" da linha abaixo para ele rodar a primeira vez na hora que você abrir:
+    # tarefa_agendada()
+
+    # Loop infinito que verifica o relógio a cada 1 minuto (60 segundos)
+    while True:
+        schedule.run_pending()
+        time.sleep(60)
