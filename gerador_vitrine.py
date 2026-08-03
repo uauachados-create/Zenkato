@@ -1,6 +1,8 @@
 import json
 import urllib.parse
+import time
 from datetime import datetime
+from duckduckgo_search import DDGS
 
 # Suas Tags de Afiliado oficiais
 TAG_AMAZON = "032018011983-20"
@@ -35,16 +37,46 @@ NICHOS = {
     ]
 }
 
+# Dicionário vazio para guardar as imagens que o robô já encontrou (Cache)
+# Isso impede que ele pesquise no buscador a mesma foto repetidas vezes
+CACHE_IMAGENS = {}
+
+def buscar_imagem_automatica(nome_produto):
+    # Se já pesquisamos esse produto antes, usa a foto salva no cache
+    if nome_produto in CACHE_IMAGENS:
+        return CACHE_IMAGENS[nome_produto]
+    
+    print(f"  -> Buscando foto na internet para: {nome_produto}...")
+    try:
+        # Busca imagens no DuckDuckGo
+        resultados = DDGS().images(keywords=nome_produto, max_results=1)
+        
+        if resultados:
+            url_imagem = resultados[0]['image']
+            CACHE_IMAGENS[nome_produto] = url_imagem
+            time.sleep(1.5)  # Pausa de 1.5s para não sobrecarregar o buscador e evitar bloqueio
+            return url_imagem
+            
+    except Exception as e:
+        print(f"  [!] Erro ao buscar foto de {nome_produto}: {e}")
+    
+    # Se falhar ou não achar, usa um placeholder genérico
+    url_fallback = "https://via.placeholder.com/500?text=Imagem+Indisponivel"
+    CACHE_IMAGENS[nome_produto] = url_fallback
+    return url_fallback
+
 def gerar_vitrine_hibrida():
     produtos = []
     id_atual = 1
 
     for nicho, itens_base in NICHOS.items():
-        print(f"Gerando 50 produtos mistos para o nicho: {nicho}...")
+        print(f"\nGerando produtos para o nicho: {nicho}...")
         
-        # Gera exatamente 50 produtos por categoria (totalizando 250)
         for i in range(1, 51):
             base_nome = itens_base[(i - 1) % len(itens_base)]
+            
+            # Aqui chamamos o robô de busca de imagens!
+            imagem_produto = buscar_imagem_automatica(base_nome)
             
             sufixos = ["Edição Especial", "Linha Pro", "Alta Performance", "Versão Compacta", "Geração Atual"]
             sufixo_escolhido = sufixos[(i + id_atual) % len(sufixos)]
@@ -52,7 +84,6 @@ def gerar_vitrine_hibrida():
             titulo = f"{base_nome} - {sufixo_escolhido} (Ref. {i})"
             termo_url = urllib.parse.quote(titulo)
             
-            # Alterna a origem: Ímpares vão para a Amazon, Pares vão para o Mercado Livre
             if i % 2 != 0:
                 origem = "Amazon"
                 link_afiliado = f"https://www.amazon.com.br/s?k={termo_url}&tag={TAG_AMAZON}"
@@ -60,17 +91,13 @@ def gerar_vitrine_hibrida():
                 origem = "Mercado Livre"
                 link_afiliado = f"https://lista.mercadolivre.com.br/{termo_url}?matt_tool={TAG_MERCADO_LIVRE}"
             
-            # Imagem ilustrativa de alta qualidade
-            imagem_placeholder = "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80"
-            
-            # Preço simulado realista
             preco_fake = round(49.90 + ((i * 17.3) % 350.0), 2)
 
             produtos.append({
                 "id": id_atual,
                 "titulo": titulo,
                 "preco": preco_fake,
-                "imagem": imagem_placeholder,
+                "imagem": imagem_produto,
                 "origem": origem,
                 "nicho": nicho,
                 "link_vitrine": link_afiliado,
@@ -81,10 +108,10 @@ def gerar_vitrine_hibrida():
     return produtos
 
 if __name__ == "__main__":
+    print("Iniciando o robô gerador de vitrine e buscador de imagens...")
     vitrine_completa = gerar_vitrine_hibrida()
     
-    # Salva o arquivo JSON final contendo os 250 produtos mistos
     with open("vitrine_produtos.json", "w", encoding="utf-8") as f:
         json.dump(vitrine_completa, f, ensure_ascii=False, indent=2)
         
-    print(f"Sucesso absoluto! Vitrine gerada com {len(vitrine_completa)} produtos (Amazon + Mercado Livre).")
+    print(f"\nSucesso absoluto! Vitrine gerada com {len(vitrine_completa)} produtos. Arquivo salvo!")
