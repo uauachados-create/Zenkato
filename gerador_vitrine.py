@@ -9,7 +9,7 @@ from duckduckgo_search import DDGS
 TAG_AMAZON = "032018011983-20"
 TAG_MERCADO_LIVRE = "18735177"
 
-# Os 5 nichos exatos do seu site e suas listas base
+# Os 5 nichos exatos do seu site e suas listas base (10 produtos)
 NICHOS = {
     "Casa Inteligente": [
         "Echo Dot Alexa", "Lampada Smart Wi-Fi", "Tomada Inteligente", "Interruptor Touch", 
@@ -38,11 +38,15 @@ NICHOS = {
     ]
 }
 
+# Caches para deixar o robô rápido e evitar bloqueios na internet
+CACHE_ML = {}
 CACHE_DDG = {}
 
 def buscar_dados_mercadolivre(nome_produto):
-    """Usa a API oficial do Mercado Livre para pegar o produto real mais relevante"""
-    print(f"  -> Consultando API Mercado Livre para: {nome_produto}...")
+    if nome_produto in CACHE_ML:
+        return CACHE_ML[nome_produto]
+        
+    print(f"  -> Consultando ML para: {nome_produto}...")
     termo_busca = urllib.parse.quote(nome_produto)
     url = f"https://api.mercadolibre.com/sites/MLB/search?q={termo_busca}&limit=1"
     
@@ -52,44 +56,37 @@ def buscar_dados_mercadolivre(nome_produto):
         
         if dados.get("results") and len(dados["results"]) > 0:
             produto = dados["results"][0]
-            
-            # Pega a URL real e injeta sua tag
             link_real = produto["permalink"]
             separador = "&" if "?" in link_real else "?"
-            link_afiliado = f"{link_real}{separador}matt_tool={TAG_MERCADO_LIVRE}"
             
-            # Troca o "I.jpg" por "O.jpg" para pegar a imagem em alta resolução do ML
-            imagem_alta_qualidade = produto["thumbnail"].replace("-I.jpg", "-O.jpg")
-            
-            return {
-                "titulo": produto["title"], # Título real do anúncio
-                "preco": float(produto["price"]), # Preço real
-                "imagem": imagem_alta_qualidade,
-                "link": link_afiliado
+            resultado = {
+                "titulo": produto["title"],
+                "preco": float(produto["price"]),
+                "imagem": produto["thumbnail"].replace("-I.jpg", "-O.jpg"),
+                "link": f"{link_real}{separador}matt_tool={TAG_MERCADO_LIVRE}"
             }
+            CACHE_ML[nome_produto] = resultado
+            return resultado
     except Exception as e:
-        print(f"  [!] Erro na API do ML para {nome_produto}: {e}")
+        print(f"  [!] Erro ML para {nome_produto}: {e}")
         
     return None
 
 def buscar_link_amazon_duckduckgo(nome_produto):
-    """Busca link e imagem via DuckDuckGo para Amazon (já que Amazon bloqueia preços)"""
     if nome_produto in CACHE_DDG:
         return CACHE_DDG[nome_produto]
         
-    print(f"  -> Buscando link Amazon para: {nome_produto}...")
+    print(f"  -> Buscando Amazon para: {nome_produto}...")
     try:
-        # Busca Link
         query = f"site:amazon.com.br/dp/ {nome_produto}"
         resultados_txt = DDGS().text(keywords=query, max_results=1)
-        link_afiliado = f"https://www.amazon.com.br/s?k={urllib.parse.quote(nome_produto)}&tag={TAG_AMAZON}" # Fallback
+        link_afiliado = f"https://www.amazon.com.br/s?k={urllib.parse.quote(nome_produto)}&tag={TAG_AMAZON}" 
         
         if resultados_txt:
             url_real = resultados_txt[0]['href']
             separador = "&" if "?" in url_real else "?"
             link_afiliado = f"{url_real}{separador}tag={TAG_AMAZON}"
             
-        # Busca Imagem
         resultados_img = DDGS().images(keywords=nome_produto, max_results=1)
         imagem_produto = "https://via.placeholder.com/500?text=Imagem+Indisponivel"
         if resultados_img:
@@ -97,7 +94,7 @@ def buscar_link_amazon_duckduckgo(nome_produto):
             
         resultado_final = {
             "titulo": f"{nome_produto} (Verificar Modelo)",
-            "preco": "Ver no site", # IMPOSSÍVEL PEGAR PREÇO DA AMAZON SEM API OFICIAL
+            "preco": 0.0, # MANTIDO COMO NÚMERO PARA NÃO QUEBRAR SEU SITE
             "imagem": imagem_produto,
             "link": link_afiliado
         }
@@ -115,23 +112,29 @@ def gerar_vitrine_hibrida():
     id_atual = 1
 
     for nicho, itens_base in NICHOS.items():
-        print(f"\nGerando produtos para o nicho: {nicho}...")
+        print(f"\nGerando 50 produtos para o nicho: {nicho}...")
         
-        # Como agora buscamos dados REAIS, vamos gerar 1 produto real para cada item da lista (10 por nicho = 50 no total)
-        # Se você quiser repetir os itens, o ML vai sempre retornar o mesmo anúncio líder.
-        for base_nome in itens_base:
+        # Gera exatamente 50 produtos por categoria (totalizando 250)
+        for i in range(1, 51):
+            # Cicla entre os 10 itens base para chegar a 50
+            base_nome = itens_base[(i - 1) % len(itens_base)]
             
-            # Alterna a plataforma (Você pode mudar essa lógica se quiser tudo no ML)
+            # Alterna a plataforma (Ímpar = Amazon, Par = Mercado Livre)
             if id_atual % 2 != 0:
-                origem = "Mercado Livre"
-                dados = buscar_dados_mercadolivre(base_nome)
-            else:
                 origem = "Amazon"
                 dados = buscar_link_amazon_duckduckgo(base_nome)
+            else:
+                origem = "Mercado Livre"
+                dados = buscar_dados_mercadolivre(base_nome)
             
-            # Se não encontrar dados (ex: site fora do ar), pula o produto
             if not dados:
-                continue
+                # Fallback de segurança se der erro de conexão
+                dados = {
+                    "titulo": f"{base_nome} - Oferta",
+                    "preco": 0.0,
+                    "imagem": "https://via.placeholder.com/500?text=Imagem+Indisponivel",
+                    "link": f"https://lista.mercadolivre.com.br/{urllib.parse.quote(base_nome)}?matt_tool={TAG_MERCADO_LIVRE}"
+                }
 
             produtos.append({
                 "id": id_atual,
@@ -148,7 +151,7 @@ def gerar_vitrine_hibrida():
     return produtos
 
 if __name__ == "__main__":
-    print("Iniciando varredura de preços e links reais...")
+    print("Iniciando robô (250 produtos)...")
     vitrine_completa = gerar_vitrine_hibrida()
     
     with open("vitrine_produtos.json", "w", encoding="utf-8") as f:
