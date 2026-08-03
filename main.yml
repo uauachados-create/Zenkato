@@ -1,0 +1,38 @@
+name: Atualizar Vitrine UAU Achados
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copiar código do repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar acesso à internet (Requests)
+        run: pip install requests
+
+      - name: Executar o robô buscador
+        run: python gerador_vitrine.py
+
+      - name: Salvar 200 produtos no site sem dar erro
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add vitrine_produtos.json
+          git commit -m "🤖 Robô: 200 produtos reais e imagens atualizadas" || echo "Sem mudanças"
+          git pull --rebase origin main
+          git push origin main

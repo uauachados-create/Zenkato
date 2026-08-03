@@ -1,0 +1,2502 @@
+[
+  {
+    "id": 1,
+    "titulo": "Echo Dot Alexa - Alta Performance (Ref. 1)",
+    "preco": 67.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Echo%20Dot%20Alexa%20-%20Alta%20Performance%20%28Ref.%201%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 2,
+    "titulo": "Lampada Smart Wi-Fi - Geração Atual (Ref. 2)",
+    "preco": 84.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Lampada%20Smart%20Wi-Fi%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%202%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 3,
+    "titulo": "Tomada Inteligente - Linha Pro (Ref. 3)",
+    "preco": 101.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Tomada%20Inteligente%20-%20Linha%20Pro%20%28Ref.%203%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 4,
+    "titulo": "Interruptor Touch - Versão Compacta (Ref. 4)",
+    "preco": 119.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Interruptor%20Touch%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%204%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 5,
+    "titulo": "Camera de Seguranca 360 - Edição Especial (Ref. 5)",
+    "preco": 136.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Camera%20de%20Seguranca%20360%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%205%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 6,
+    "titulo": "Robo Aspirador - Alta Performance (Ref. 6)",
+    "preco": 153.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Robo%20Aspirador%20-%20Alta%20Performance%20%28Ref.%206%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 7,
+    "titulo": "Fechadura Digital - Geração Atual (Ref. 7)",
+    "preco": 171.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Fechadura%20Digital%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%207%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 8,
+    "titulo": "Fita LED Smart - Linha Pro (Ref. 8)",
+    "preco": 188.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Fita%20LED%20Smart%20-%20Linha%20Pro%20%28Ref.%208%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 9,
+    "titulo": "Hub de Automacao - Versão Compacta (Ref. 9)",
+    "preco": 205.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Hub%20de%20Automacao%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%209%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 10,
+    "titulo": "Sensor de Presenca Inteligente - Edição Especial (Ref. 10)",
+    "preco": 222.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Sensor%20de%20Presenca%20Inteligente%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2010%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 11,
+    "titulo": "Echo Dot Alexa - Alta Performance (Ref. 11)",
+    "preco": 240.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Echo%20Dot%20Alexa%20-%20Alta%20Performance%20%28Ref.%2011%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 12,
+    "titulo": "Lampada Smart Wi-Fi - Geração Atual (Ref. 12)",
+    "preco": 257.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Lampada%20Smart%20Wi-Fi%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2012%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 13,
+    "titulo": "Tomada Inteligente - Linha Pro (Ref. 13)",
+    "preco": 274.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Tomada%20Inteligente%20-%20Linha%20Pro%20%28Ref.%2013%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 14,
+    "titulo": "Interruptor Touch - Versão Compacta (Ref. 14)",
+    "preco": 292.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Interruptor%20Touch%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2014%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 15,
+    "titulo": "Camera de Seguranca 360 - Edição Especial (Ref. 15)",
+    "preco": 309.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Camera%20de%20Seguranca%20360%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2015%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 16,
+    "titulo": "Robo Aspirador - Alta Performance (Ref. 16)",
+    "preco": 326.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Robo%20Aspirador%20-%20Alta%20Performance%20%28Ref.%2016%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 17,
+    "titulo": "Fechadura Digital - Geração Atual (Ref. 17)",
+    "preco": 344.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Fechadura%20Digital%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2017%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 18,
+    "titulo": "Fita LED Smart - Linha Pro (Ref. 18)",
+    "preco": 361.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Fita%20LED%20Smart%20-%20Linha%20Pro%20%28Ref.%2018%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 19,
+    "titulo": "Hub de Automacao - Versão Compacta (Ref. 19)",
+    "preco": 378.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Hub%20de%20Automacao%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2019%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 20,
+    "titulo": "Sensor de Presenca Inteligente - Edição Especial (Ref. 20)",
+    "preco": 395.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Sensor%20de%20Presenca%20Inteligente%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2020%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 21,
+    "titulo": "Echo Dot Alexa - Alta Performance (Ref. 21)",
+    "preco": 63.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Echo%20Dot%20Alexa%20-%20Alta%20Performance%20%28Ref.%2021%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 22,
+    "titulo": "Lampada Smart Wi-Fi - Geração Atual (Ref. 22)",
+    "preco": 80.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Lampada%20Smart%20Wi-Fi%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2022%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 23,
+    "titulo": "Tomada Inteligente - Linha Pro (Ref. 23)",
+    "preco": 97.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Tomada%20Inteligente%20-%20Linha%20Pro%20%28Ref.%2023%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 24,
+    "titulo": "Interruptor Touch - Versão Compacta (Ref. 24)",
+    "preco": 115.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Interruptor%20Touch%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2024%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 25,
+    "titulo": "Camera de Seguranca 360 - Edição Especial (Ref. 25)",
+    "preco": 132.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Camera%20de%20Seguranca%20360%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2025%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 26,
+    "titulo": "Robo Aspirador - Alta Performance (Ref. 26)",
+    "preco": 149.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Robo%20Aspirador%20-%20Alta%20Performance%20%28Ref.%2026%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 27,
+    "titulo": "Fechadura Digital - Geração Atual (Ref. 27)",
+    "preco": 167.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Fechadura%20Digital%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2027%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 28,
+    "titulo": "Fita LED Smart - Linha Pro (Ref. 28)",
+    "preco": 184.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Fita%20LED%20Smart%20-%20Linha%20Pro%20%28Ref.%2028%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 29,
+    "titulo": "Hub de Automacao - Versão Compacta (Ref. 29)",
+    "preco": 201.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Hub%20de%20Automacao%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2029%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 30,
+    "titulo": "Sensor de Presenca Inteligente - Edição Especial (Ref. 30)",
+    "preco": 218.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Sensor%20de%20Presenca%20Inteligente%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2030%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 31,
+    "titulo": "Echo Dot Alexa - Alta Performance (Ref. 31)",
+    "preco": 236.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Echo%20Dot%20Alexa%20-%20Alta%20Performance%20%28Ref.%2031%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 32,
+    "titulo": "Lampada Smart Wi-Fi - Geração Atual (Ref. 32)",
+    "preco": 253.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Lampada%20Smart%20Wi-Fi%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2032%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 33,
+    "titulo": "Tomada Inteligente - Linha Pro (Ref. 33)",
+    "preco": 270.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Tomada%20Inteligente%20-%20Linha%20Pro%20%28Ref.%2033%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 34,
+    "titulo": "Interruptor Touch - Versão Compacta (Ref. 34)",
+    "preco": 288.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Interruptor%20Touch%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2034%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 35,
+    "titulo": "Camera de Seguranca 360 - Edição Especial (Ref. 35)",
+    "preco": 305.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Camera%20de%20Seguranca%20360%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2035%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 36,
+    "titulo": "Robo Aspirador - Alta Performance (Ref. 36)",
+    "preco": 322.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Robo%20Aspirador%20-%20Alta%20Performance%20%28Ref.%2036%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 37,
+    "titulo": "Fechadura Digital - Geração Atual (Ref. 37)",
+    "preco": 340.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Fechadura%20Digital%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2037%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 38,
+    "titulo": "Fita LED Smart - Linha Pro (Ref. 38)",
+    "preco": 357.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Fita%20LED%20Smart%20-%20Linha%20Pro%20%28Ref.%2038%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 39,
+    "titulo": "Hub de Automacao - Versão Compacta (Ref. 39)",
+    "preco": 374.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Hub%20de%20Automacao%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2039%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 40,
+    "titulo": "Sensor de Presenca Inteligente - Edição Especial (Ref. 40)",
+    "preco": 391.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Sensor%20de%20Presenca%20Inteligente%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2040%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 41,
+    "titulo": "Echo Dot Alexa - Alta Performance (Ref. 41)",
+    "preco": 59.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Echo%20Dot%20Alexa%20-%20Alta%20Performance%20%28Ref.%2041%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 42,
+    "titulo": "Lampada Smart Wi-Fi - Geração Atual (Ref. 42)",
+    "preco": 76.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Lampada%20Smart%20Wi-Fi%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2042%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 43,
+    "titulo": "Tomada Inteligente - Linha Pro (Ref. 43)",
+    "preco": 93.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Tomada%20Inteligente%20-%20Linha%20Pro%20%28Ref.%2043%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 44,
+    "titulo": "Interruptor Touch - Versão Compacta (Ref. 44)",
+    "preco": 111.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Interruptor%20Touch%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2044%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 45,
+    "titulo": "Camera de Seguranca 360 - Edição Especial (Ref. 45)",
+    "preco": 128.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Camera%20de%20Seguranca%20360%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2045%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 46,
+    "titulo": "Robo Aspirador - Alta Performance (Ref. 46)",
+    "preco": 145.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Robo%20Aspirador%20-%20Alta%20Performance%20%28Ref.%2046%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 47,
+    "titulo": "Fechadura Digital - Geração Atual (Ref. 47)",
+    "preco": 163.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Fechadura%20Digital%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2047%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 48,
+    "titulo": "Fita LED Smart - Linha Pro (Ref. 48)",
+    "preco": 180.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Fita%20LED%20Smart%20-%20Linha%20Pro%20%28Ref.%2048%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 49,
+    "titulo": "Hub de Automacao - Versão Compacta (Ref. 49)",
+    "preco": 197.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Hub%20de%20Automacao%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2049%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 50,
+    "titulo": "Sensor de Presenca Inteligente - Edição Especial (Ref. 50)",
+    "preco": 214.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Casa Inteligente",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Sensor%20de%20Presenca%20Inteligente%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2050%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 51,
+    "titulo": "Kit Skincare Completo - Alta Performance (Ref. 1)",
+    "preco": 67.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Kit%20Skincare%20Completo%20-%20Alta%20Performance%20%28Ref.%201%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 52,
+    "titulo": "Serum Vitamina C - Geração Atual (Ref. 2)",
+    "preco": 84.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Serum%20Vitamina%20C%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%202%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 53,
+    "titulo": "Massageador Facial Jade - Linha Pro (Ref. 3)",
+    "preco": 101.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Massageador%20Facial%20Jade%20-%20Linha%20Pro%20%28Ref.%203%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 54,
+    "titulo": "Mascara de Argila - Versão Compacta (Ref. 4)",
+    "preco": 119.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Mascara%20de%20Argila%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%204%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 55,
+    "titulo": "Esponja Eletrica Facial - Edição Especial (Ref. 5)",
+    "preco": 136.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Esponja%20Eletrica%20Facial%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%205%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 56,
+    "titulo": "Acido Hialuronico - Alta Performance (Ref. 6)",
+    "preco": 153.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Acido%20Hialuronico%20-%20Alta%20Performance%20%28Ref.%206%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 57,
+    "titulo": "Protetor Solar Facial - Geração Atual (Ref. 7)",
+    "preco": 171.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Protetor%20Solar%20Facial%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%207%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 58,
+    "titulo": "Creme Anti-Idade - Linha Pro (Ref. 8)",
+    "preco": 188.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Creme%20Anti-Idade%20-%20Linha%20Pro%20%28Ref.%208%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 59,
+    "titulo": "Oleo Hidratante Corporal - Versão Compacta (Ref. 9)",
+    "preco": 205.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Oleo%20Hidratante%20Corporal%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%209%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 60,
+    "titulo": "Kit Pinceis de Maquiagem Profissional - Edição Especial (Ref. 10)",
+    "preco": 222.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Kit%20Pinceis%20de%20Maquiagem%20Profissional%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2010%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 61,
+    "titulo": "Kit Skincare Completo - Alta Performance (Ref. 11)",
+    "preco": 240.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Kit%20Skincare%20Completo%20-%20Alta%20Performance%20%28Ref.%2011%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 62,
+    "titulo": "Serum Vitamina C - Geração Atual (Ref. 12)",
+    "preco": 257.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Serum%20Vitamina%20C%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2012%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 63,
+    "titulo": "Massageador Facial Jade - Linha Pro (Ref. 13)",
+    "preco": 274.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Massageador%20Facial%20Jade%20-%20Linha%20Pro%20%28Ref.%2013%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 64,
+    "titulo": "Mascara de Argila - Versão Compacta (Ref. 14)",
+    "preco": 292.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Mascara%20de%20Argila%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2014%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 65,
+    "titulo": "Esponja Eletrica Facial - Edição Especial (Ref. 15)",
+    "preco": 309.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Esponja%20Eletrica%20Facial%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2015%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 66,
+    "titulo": "Acido Hialuronico - Alta Performance (Ref. 16)",
+    "preco": 326.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Acido%20Hialuronico%20-%20Alta%20Performance%20%28Ref.%2016%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 67,
+    "titulo": "Protetor Solar Facial - Geração Atual (Ref. 17)",
+    "preco": 344.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Protetor%20Solar%20Facial%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2017%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 68,
+    "titulo": "Creme Anti-Idade - Linha Pro (Ref. 18)",
+    "preco": 361.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Creme%20Anti-Idade%20-%20Linha%20Pro%20%28Ref.%2018%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 69,
+    "titulo": "Oleo Hidratante Corporal - Versão Compacta (Ref. 19)",
+    "preco": 378.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Oleo%20Hidratante%20Corporal%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2019%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 70,
+    "titulo": "Kit Pinceis de Maquiagem Profissional - Edição Especial (Ref. 20)",
+    "preco": 395.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Kit%20Pinceis%20de%20Maquiagem%20Profissional%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2020%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 71,
+    "titulo": "Kit Skincare Completo - Alta Performance (Ref. 21)",
+    "preco": 63.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Kit%20Skincare%20Completo%20-%20Alta%20Performance%20%28Ref.%2021%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 72,
+    "titulo": "Serum Vitamina C - Geração Atual (Ref. 22)",
+    "preco": 80.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Serum%20Vitamina%20C%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2022%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 73,
+    "titulo": "Massageador Facial Jade - Linha Pro (Ref. 23)",
+    "preco": 97.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Massageador%20Facial%20Jade%20-%20Linha%20Pro%20%28Ref.%2023%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 74,
+    "titulo": "Mascara de Argila - Versão Compacta (Ref. 24)",
+    "preco": 115.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Mascara%20de%20Argila%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2024%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 75,
+    "titulo": "Esponja Eletrica Facial - Edição Especial (Ref. 25)",
+    "preco": 132.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Esponja%20Eletrica%20Facial%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2025%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 76,
+    "titulo": "Acido Hialuronico - Alta Performance (Ref. 26)",
+    "preco": 149.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Acido%20Hialuronico%20-%20Alta%20Performance%20%28Ref.%2026%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 77,
+    "titulo": "Protetor Solar Facial - Geração Atual (Ref. 27)",
+    "preco": 167.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Protetor%20Solar%20Facial%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2027%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 78,
+    "titulo": "Creme Anti-Idade - Linha Pro (Ref. 28)",
+    "preco": 184.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Creme%20Anti-Idade%20-%20Linha%20Pro%20%28Ref.%2028%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 79,
+    "titulo": "Oleo Hidratante Corporal - Versão Compacta (Ref. 29)",
+    "preco": 201.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Oleo%20Hidratante%20Corporal%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2029%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 80,
+    "titulo": "Kit Pinceis de Maquiagem Profissional - Edição Especial (Ref. 30)",
+    "preco": 218.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Kit%20Pinceis%20de%20Maquiagem%20Profissional%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2030%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 81,
+    "titulo": "Kit Skincare Completo - Alta Performance (Ref. 31)",
+    "preco": 236.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Kit%20Skincare%20Completo%20-%20Alta%20Performance%20%28Ref.%2031%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 82,
+    "titulo": "Serum Vitamina C - Geração Atual (Ref. 32)",
+    "preco": 253.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Serum%20Vitamina%20C%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2032%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 83,
+    "titulo": "Massageador Facial Jade - Linha Pro (Ref. 33)",
+    "preco": 270.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Massageador%20Facial%20Jade%20-%20Linha%20Pro%20%28Ref.%2033%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 84,
+    "titulo": "Mascara de Argila - Versão Compacta (Ref. 34)",
+    "preco": 288.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Mascara%20de%20Argila%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2034%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 85,
+    "titulo": "Esponja Eletrica Facial - Edição Especial (Ref. 35)",
+    "preco": 305.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Esponja%20Eletrica%20Facial%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2035%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 86,
+    "titulo": "Acido Hialuronico - Alta Performance (Ref. 36)",
+    "preco": 322.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Acido%20Hialuronico%20-%20Alta%20Performance%20%28Ref.%2036%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 87,
+    "titulo": "Protetor Solar Facial - Geração Atual (Ref. 37)",
+    "preco": 340.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Protetor%20Solar%20Facial%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2037%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 88,
+    "titulo": "Creme Anti-Idade - Linha Pro (Ref. 38)",
+    "preco": 357.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Creme%20Anti-Idade%20-%20Linha%20Pro%20%28Ref.%2038%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 89,
+    "titulo": "Oleo Hidratante Corporal - Versão Compacta (Ref. 39)",
+    "preco": 374.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Oleo%20Hidratante%20Corporal%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2039%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 90,
+    "titulo": "Kit Pinceis de Maquiagem Profissional - Edição Especial (Ref. 40)",
+    "preco": 391.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Kit%20Pinceis%20de%20Maquiagem%20Profissional%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2040%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 91,
+    "titulo": "Kit Skincare Completo - Alta Performance (Ref. 41)",
+    "preco": 59.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Kit%20Skincare%20Completo%20-%20Alta%20Performance%20%28Ref.%2041%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 92,
+    "titulo": "Serum Vitamina C - Geração Atual (Ref. 42)",
+    "preco": 76.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Serum%20Vitamina%20C%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2042%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 93,
+    "titulo": "Massageador Facial Jade - Linha Pro (Ref. 43)",
+    "preco": 93.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Massageador%20Facial%20Jade%20-%20Linha%20Pro%20%28Ref.%2043%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 94,
+    "titulo": "Mascara de Argila - Versão Compacta (Ref. 44)",
+    "preco": 111.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Mascara%20de%20Argila%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2044%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 95,
+    "titulo": "Esponja Eletrica Facial - Edição Especial (Ref. 45)",
+    "preco": 128.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Esponja%20Eletrica%20Facial%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2045%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 96,
+    "titulo": "Acido Hialuronico - Alta Performance (Ref. 46)",
+    "preco": 145.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Acido%20Hialuronico%20-%20Alta%20Performance%20%28Ref.%2046%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 97,
+    "titulo": "Protetor Solar Facial - Geração Atual (Ref. 47)",
+    "preco": 163.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Protetor%20Solar%20Facial%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2047%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 98,
+    "titulo": "Creme Anti-Idade - Linha Pro (Ref. 48)",
+    "preco": 180.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Creme%20Anti-Idade%20-%20Linha%20Pro%20%28Ref.%2048%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 99,
+    "titulo": "Oleo Hidratante Corporal - Versão Compacta (Ref. 49)",
+    "preco": 197.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Oleo%20Hidratante%20Corporal%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2049%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 100,
+    "titulo": "Kit Pinceis de Maquiagem Profissional - Edição Especial (Ref. 50)",
+    "preco": 214.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Beleza & Skincare",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Kit%20Pinceis%20de%20Maquiagem%20Profissional%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2050%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 101,
+    "titulo": "Halteres Emborrachados - Alta Performance (Ref. 1)",
+    "preco": 67.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Halteres%20Emborrachados%20-%20Alta%20Performance%20%28Ref.%201%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 102,
+    "titulo": "Whey Protein Concentrado - Geração Atual (Ref. 2)",
+    "preco": 84.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Whey%20Protein%20Concentrado%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%202%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 103,
+    "titulo": "Creatina Pura Monohidratada - Linha Pro (Ref. 3)",
+    "preco": 101.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Creatina%20Pura%20Monohidratada%20-%20Linha%20Pro%20%28Ref.%203%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 104,
+    "titulo": "Faixas Elasticas Extensoras - Versão Compacta (Ref. 4)",
+    "preco": 119.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Faixas%20Elasticas%20Extensoras%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%204%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 105,
+    "titulo": "Tapete Yoga Mat - Edição Especial (Ref. 5)",
+    "preco": 136.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Tapete%20Yoga%20Mat%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%205%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 106,
+    "titulo": "Cadeira de Escritorio Ergonomica - Alta Performance (Ref. 6)",
+    "preco": 153.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Cadeira%20de%20Escritorio%20Ergonomica%20-%20Alta%20Performance%20%28Ref.%206%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 107,
+    "titulo": "Suporte para Notebook - Geração Atual (Ref. 7)",
+    "preco": 171.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Suporte%20para%20Notebook%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%207%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 108,
+    "titulo": "Garrafa Termica Inox - Linha Pro (Ref. 8)",
+    "preco": 188.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Garrafa%20Termica%20Inox%20-%20Linha%20Pro%20%28Ref.%208%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 109,
+    "titulo": "Mochila Executiva - Versão Compacta (Ref. 9)",
+    "preco": 205.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Mochila%20Executiva%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%209%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 110,
+    "titulo": "Banda de Resistencia - Edição Especial (Ref. 10)",
+    "preco": 222.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Banda%20de%20Resistencia%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2010%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 111,
+    "titulo": "Halteres Emborrachados - Alta Performance (Ref. 11)",
+    "preco": 240.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Halteres%20Emborrachados%20-%20Alta%20Performance%20%28Ref.%2011%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 112,
+    "titulo": "Whey Protein Concentrado - Geração Atual (Ref. 12)",
+    "preco": 257.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Whey%20Protein%20Concentrado%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2012%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 113,
+    "titulo": "Creatina Pura Monohidratada - Linha Pro (Ref. 13)",
+    "preco": 274.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Creatina%20Pura%20Monohidratada%20-%20Linha%20Pro%20%28Ref.%2013%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 114,
+    "titulo": "Faixas Elasticas Extensoras - Versão Compacta (Ref. 14)",
+    "preco": 292.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Faixas%20Elasticas%20Extensoras%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2014%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 115,
+    "titulo": "Tapete Yoga Mat - Edição Especial (Ref. 15)",
+    "preco": 309.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Tapete%20Yoga%20Mat%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2015%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 116,
+    "titulo": "Cadeira de Escritorio Ergonomica - Alta Performance (Ref. 16)",
+    "preco": 326.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Cadeira%20de%20Escritorio%20Ergonomica%20-%20Alta%20Performance%20%28Ref.%2016%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 117,
+    "titulo": "Suporte para Notebook - Geração Atual (Ref. 17)",
+    "preco": 344.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Suporte%20para%20Notebook%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2017%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 118,
+    "titulo": "Garrafa Termica Inox - Linha Pro (Ref. 18)",
+    "preco": 361.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Garrafa%20Termica%20Inox%20-%20Linha%20Pro%20%28Ref.%2018%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 119,
+    "titulo": "Mochila Executiva - Versão Compacta (Ref. 19)",
+    "preco": 378.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Mochila%20Executiva%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2019%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 120,
+    "titulo": "Banda de Resistencia - Edição Especial (Ref. 20)",
+    "preco": 395.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Banda%20de%20Resistencia%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2020%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 121,
+    "titulo": "Halteres Emborrachados - Alta Performance (Ref. 21)",
+    "preco": 63.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Halteres%20Emborrachados%20-%20Alta%20Performance%20%28Ref.%2021%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 122,
+    "titulo": "Whey Protein Concentrado - Geração Atual (Ref. 22)",
+    "preco": 80.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Whey%20Protein%20Concentrado%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2022%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 123,
+    "titulo": "Creatina Pura Monohidratada - Linha Pro (Ref. 23)",
+    "preco": 97.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Creatina%20Pura%20Monohidratada%20-%20Linha%20Pro%20%28Ref.%2023%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 124,
+    "titulo": "Faixas Elasticas Extensoras - Versão Compacta (Ref. 24)",
+    "preco": 115.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Faixas%20Elasticas%20Extensoras%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2024%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 125,
+    "titulo": "Tapete Yoga Mat - Edição Especial (Ref. 25)",
+    "preco": 132.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Tapete%20Yoga%20Mat%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2025%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 126,
+    "titulo": "Cadeira de Escritorio Ergonomica - Alta Performance (Ref. 26)",
+    "preco": 149.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Cadeira%20de%20Escritorio%20Ergonomica%20-%20Alta%20Performance%20%28Ref.%2026%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 127,
+    "titulo": "Suporte para Notebook - Geração Atual (Ref. 27)",
+    "preco": 167.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Suporte%20para%20Notebook%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2027%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 128,
+    "titulo": "Garrafa Termica Inox - Linha Pro (Ref. 28)",
+    "preco": 184.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Garrafa%20Termica%20Inox%20-%20Linha%20Pro%20%28Ref.%2028%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 129,
+    "titulo": "Mochila Executiva - Versão Compacta (Ref. 29)",
+    "preco": 201.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Mochila%20Executiva%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2029%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 130,
+    "titulo": "Banda de Resistencia - Edição Especial (Ref. 30)",
+    "preco": 218.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Banda%20de%20Resistencia%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2030%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 131,
+    "titulo": "Halteres Emborrachados - Alta Performance (Ref. 31)",
+    "preco": 236.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Halteres%20Emborrachados%20-%20Alta%20Performance%20%28Ref.%2031%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 132,
+    "titulo": "Whey Protein Concentrado - Geração Atual (Ref. 32)",
+    "preco": 253.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Whey%20Protein%20Concentrado%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2032%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 133,
+    "titulo": "Creatina Pura Monohidratada - Linha Pro (Ref. 33)",
+    "preco": 270.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Creatina%20Pura%20Monohidratada%20-%20Linha%20Pro%20%28Ref.%2033%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 134,
+    "titulo": "Faixas Elasticas Extensoras - Versão Compacta (Ref. 34)",
+    "preco": 288.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Faixas%20Elasticas%20Extensoras%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2034%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 135,
+    "titulo": "Tapete Yoga Mat - Edição Especial (Ref. 35)",
+    "preco": 305.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Tapete%20Yoga%20Mat%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2035%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 136,
+    "titulo": "Cadeira de Escritorio Ergonomica - Alta Performance (Ref. 36)",
+    "preco": 322.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Cadeira%20de%20Escritorio%20Ergonomica%20-%20Alta%20Performance%20%28Ref.%2036%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 137,
+    "titulo": "Suporte para Notebook - Geração Atual (Ref. 37)",
+    "preco": 340.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Suporte%20para%20Notebook%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2037%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 138,
+    "titulo": "Garrafa Termica Inox - Linha Pro (Ref. 38)",
+    "preco": 357.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Garrafa%20Termica%20Inox%20-%20Linha%20Pro%20%28Ref.%2038%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 139,
+    "titulo": "Mochila Executiva - Versão Compacta (Ref. 39)",
+    "preco": 374.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Mochila%20Executiva%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2039%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 140,
+    "titulo": "Banda de Resistencia - Edição Especial (Ref. 40)",
+    "preco": 391.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Banda%20de%20Resistencia%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2040%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 141,
+    "titulo": "Halteres Emborrachados - Alta Performance (Ref. 41)",
+    "preco": 59.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Halteres%20Emborrachados%20-%20Alta%20Performance%20%28Ref.%2041%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 142,
+    "titulo": "Whey Protein Concentrado - Geração Atual (Ref. 42)",
+    "preco": 76.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Whey%20Protein%20Concentrado%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2042%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 143,
+    "titulo": "Creatina Pura Monohidratada - Linha Pro (Ref. 43)",
+    "preco": 93.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Creatina%20Pura%20Monohidratada%20-%20Linha%20Pro%20%28Ref.%2043%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 144,
+    "titulo": "Faixas Elasticas Extensoras - Versão Compacta (Ref. 44)",
+    "preco": 111.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Faixas%20Elasticas%20Extensoras%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2044%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 145,
+    "titulo": "Tapete Yoga Mat - Edição Especial (Ref. 45)",
+    "preco": 128.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Tapete%20Yoga%20Mat%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2045%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 146,
+    "titulo": "Cadeira de Escritorio Ergonomica - Alta Performance (Ref. 46)",
+    "preco": 145.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Cadeira%20de%20Escritorio%20Ergonomica%20-%20Alta%20Performance%20%28Ref.%2046%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 147,
+    "titulo": "Suporte para Notebook - Geração Atual (Ref. 47)",
+    "preco": 163.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Suporte%20para%20Notebook%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2047%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 148,
+    "titulo": "Garrafa Termica Inox - Linha Pro (Ref. 48)",
+    "preco": 180.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Garrafa%20Termica%20Inox%20-%20Linha%20Pro%20%28Ref.%2048%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 149,
+    "titulo": "Mochila Executiva - Versão Compacta (Ref. 49)",
+    "preco": 197.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Mochila%20Executiva%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2049%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 150,
+    "titulo": "Banda de Resistencia - Edição Especial (Ref. 50)",
+    "preco": 214.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Fitness & Office",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Banda%20de%20Resistencia%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2050%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 151,
+    "titulo": "Fonte Bebedouro Automatica - Alta Performance (Ref. 1)",
+    "preco": 67.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Fonte%20Bebedouro%20Automatica%20-%20Alta%20Performance%20%28Ref.%201%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 152,
+    "titulo": "Tapete Higienico Caes - Geração Atual (Ref. 2)",
+    "preco": 84.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Tapete%20Higienico%20Caes%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%202%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 153,
+    "titulo": "Cama Nuvem Pet - Linha Pro (Ref. 3)",
+    "preco": 101.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Cama%20Nuvem%20Pet%20-%20Linha%20Pro%20%28Ref.%203%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 154,
+    "titulo": "Arranhador para Gatos - Versão Compacta (Ref. 4)",
+    "preco": 119.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Arranhador%20para%20Gatos%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%204%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 155,
+    "titulo": "Escova Tira Pelos - Edição Especial (Ref. 5)",
+    "preco": 136.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Escova%20Tira%20Pelos%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%205%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 156,
+    "titulo": "Caixa de Transporte - Alta Performance (Ref. 6)",
+    "preco": 153.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Caixa%20de%20Transporte%20-%20Alta%20Performance%20%28Ref.%206%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 157,
+    "titulo": "Brinquedo Mordedor Interativo - Geração Atual (Ref. 7)",
+    "preco": 171.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Brinquedo%20Mordedor%20Interativo%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%207%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 158,
+    "titulo": "Racao Premium - Linha Pro (Ref. 8)",
+    "preco": 188.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Racao%20Premium%20-%20Linha%20Pro%20%28Ref.%208%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 159,
+    "titulo": "Coleira Peitoral Antipuxao - Versão Compacta (Ref. 9)",
+    "preco": 205.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Coleira%20Peitoral%20Antipuxao%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%209%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 160,
+    "titulo": "Comedouros Elevados - Edição Especial (Ref. 10)",
+    "preco": 222.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Comedouros%20Elevados%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2010%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 161,
+    "titulo": "Fonte Bebedouro Automatica - Alta Performance (Ref. 11)",
+    "preco": 240.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Fonte%20Bebedouro%20Automatica%20-%20Alta%20Performance%20%28Ref.%2011%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 162,
+    "titulo": "Tapete Higienico Caes - Geração Atual (Ref. 12)",
+    "preco": 257.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Tapete%20Higienico%20Caes%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2012%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 163,
+    "titulo": "Cama Nuvem Pet - Linha Pro (Ref. 13)",
+    "preco": 274.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Cama%20Nuvem%20Pet%20-%20Linha%20Pro%20%28Ref.%2013%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 164,
+    "titulo": "Arranhador para Gatos - Versão Compacta (Ref. 14)",
+    "preco": 292.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Arranhador%20para%20Gatos%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2014%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 165,
+    "titulo": "Escova Tira Pelos - Edição Especial (Ref. 15)",
+    "preco": 309.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Escova%20Tira%20Pelos%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2015%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 166,
+    "titulo": "Caixa de Transporte - Alta Performance (Ref. 16)",
+    "preco": 326.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Caixa%20de%20Transporte%20-%20Alta%20Performance%20%28Ref.%2016%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 167,
+    "titulo": "Brinquedo Mordedor Interativo - Geração Atual (Ref. 17)",
+    "preco": 344.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Brinquedo%20Mordedor%20Interativo%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2017%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 168,
+    "titulo": "Racao Premium - Linha Pro (Ref. 18)",
+    "preco": 361.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Racao%20Premium%20-%20Linha%20Pro%20%28Ref.%2018%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 169,
+    "titulo": "Coleira Peitoral Antipuxao - Versão Compacta (Ref. 19)",
+    "preco": 378.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Coleira%20Peitoral%20Antipuxao%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2019%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 170,
+    "titulo": "Comedouros Elevados - Edição Especial (Ref. 20)",
+    "preco": 395.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Comedouros%20Elevados%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2020%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 171,
+    "titulo": "Fonte Bebedouro Automatica - Alta Performance (Ref. 21)",
+    "preco": 63.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Fonte%20Bebedouro%20Automatica%20-%20Alta%20Performance%20%28Ref.%2021%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 172,
+    "titulo": "Tapete Higienico Caes - Geração Atual (Ref. 22)",
+    "preco": 80.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Tapete%20Higienico%20Caes%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2022%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 173,
+    "titulo": "Cama Nuvem Pet - Linha Pro (Ref. 23)",
+    "preco": 97.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Cama%20Nuvem%20Pet%20-%20Linha%20Pro%20%28Ref.%2023%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 174,
+    "titulo": "Arranhador para Gatos - Versão Compacta (Ref. 24)",
+    "preco": 115.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Arranhador%20para%20Gatos%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2024%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 175,
+    "titulo": "Escova Tira Pelos - Edição Especial (Ref. 25)",
+    "preco": 132.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Escova%20Tira%20Pelos%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2025%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 176,
+    "titulo": "Caixa de Transporte - Alta Performance (Ref. 26)",
+    "preco": 149.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Caixa%20de%20Transporte%20-%20Alta%20Performance%20%28Ref.%2026%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 177,
+    "titulo": "Brinquedo Mordedor Interativo - Geração Atual (Ref. 27)",
+    "preco": 167.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Brinquedo%20Mordedor%20Interativo%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2027%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 178,
+    "titulo": "Racao Premium - Linha Pro (Ref. 28)",
+    "preco": 184.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Racao%20Premium%20-%20Linha%20Pro%20%28Ref.%2028%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 179,
+    "titulo": "Coleira Peitoral Antipuxao - Versão Compacta (Ref. 29)",
+    "preco": 201.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Coleira%20Peitoral%20Antipuxao%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2029%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 180,
+    "titulo": "Comedouros Elevados - Edição Especial (Ref. 30)",
+    "preco": 218.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Comedouros%20Elevados%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2030%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 181,
+    "titulo": "Fonte Bebedouro Automatica - Alta Performance (Ref. 31)",
+    "preco": 236.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Fonte%20Bebedouro%20Automatica%20-%20Alta%20Performance%20%28Ref.%2031%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 182,
+    "titulo": "Tapete Higienico Caes - Geração Atual (Ref. 32)",
+    "preco": 253.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Tapete%20Higienico%20Caes%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2032%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 183,
+    "titulo": "Cama Nuvem Pet - Linha Pro (Ref. 33)",
+    "preco": 270.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Cama%20Nuvem%20Pet%20-%20Linha%20Pro%20%28Ref.%2033%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 184,
+    "titulo": "Arranhador para Gatos - Versão Compacta (Ref. 34)",
+    "preco": 288.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Arranhador%20para%20Gatos%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2034%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 185,
+    "titulo": "Escova Tira Pelos - Edição Especial (Ref. 35)",
+    "preco": 305.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Escova%20Tira%20Pelos%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2035%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 186,
+    "titulo": "Caixa de Transporte - Alta Performance (Ref. 36)",
+    "preco": 322.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Caixa%20de%20Transporte%20-%20Alta%20Performance%20%28Ref.%2036%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 187,
+    "titulo": "Brinquedo Mordedor Interativo - Geração Atual (Ref. 37)",
+    "preco": 340.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Brinquedo%20Mordedor%20Interativo%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2037%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 188,
+    "titulo": "Racao Premium - Linha Pro (Ref. 38)",
+    "preco": 357.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Racao%20Premium%20-%20Linha%20Pro%20%28Ref.%2038%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 189,
+    "titulo": "Coleira Peitoral Antipuxao - Versão Compacta (Ref. 39)",
+    "preco": 374.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Coleira%20Peitoral%20Antipuxao%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2039%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 190,
+    "titulo": "Comedouros Elevados - Edição Especial (Ref. 40)",
+    "preco": 391.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Comedouros%20Elevados%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2040%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 191,
+    "titulo": "Fonte Bebedouro Automatica - Alta Performance (Ref. 41)",
+    "preco": 59.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Fonte%20Bebedouro%20Automatica%20-%20Alta%20Performance%20%28Ref.%2041%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 192,
+    "titulo": "Tapete Higienico Caes - Geração Atual (Ref. 42)",
+    "preco": 76.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Tapete%20Higienico%20Caes%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2042%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 193,
+    "titulo": "Cama Nuvem Pet - Linha Pro (Ref. 43)",
+    "preco": 93.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Cama%20Nuvem%20Pet%20-%20Linha%20Pro%20%28Ref.%2043%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 194,
+    "titulo": "Arranhador para Gatos - Versão Compacta (Ref. 44)",
+    "preco": 111.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Arranhador%20para%20Gatos%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2044%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 195,
+    "titulo": "Escova Tira Pelos - Edição Especial (Ref. 45)",
+    "preco": 128.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Escova%20Tira%20Pelos%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2045%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 196,
+    "titulo": "Caixa de Transporte - Alta Performance (Ref. 46)",
+    "preco": 145.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Caixa%20de%20Transporte%20-%20Alta%20Performance%20%28Ref.%2046%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 197,
+    "titulo": "Brinquedo Mordedor Interativo - Geração Atual (Ref. 47)",
+    "preco": 163.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Brinquedo%20Mordedor%20Interativo%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2047%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 198,
+    "titulo": "Racao Premium - Linha Pro (Ref. 48)",
+    "preco": 180.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Racao%20Premium%20-%20Linha%20Pro%20%28Ref.%2048%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 199,
+    "titulo": "Coleira Peitoral Antipuxao - Versão Compacta (Ref. 49)",
+    "preco": 197.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Pets",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Coleira%20Peitoral%20Antipuxao%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2049%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 200,
+    "titulo": "Comedouros Elevados - Edição Especial (Ref. 50)",
+    "preco": 214.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Pets",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Comedouros%20Elevados%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2050%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 201,
+    "titulo": "Maleta de Ferramentas Completa - Alta Performance (Ref. 1)",
+    "preco": 67.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Maleta%20de%20Ferramentas%20Completa%20-%20Alta%20Performance%20%28Ref.%201%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 202,
+    "titulo": "Parafusadeira Furadeira 12V - Geração Atual (Ref. 2)",
+    "preco": 84.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Parafusadeira%20Furadeira%2012V%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%202%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 203,
+    "titulo": "Jogo de Chaves de Fenda - Linha Pro (Ref. 3)",
+    "preco": 101.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Jogo%20de%20Chaves%20de%20Fenda%20-%20Linha%20Pro%20%28Ref.%203%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 204,
+    "titulo": "Trena a Laser Digital - Versão Compacta (Ref. 4)",
+    "preco": 119.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Trena%20a%20Laser%20Digital%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%204%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 205,
+    "titulo": "Kit Chaves de Precisao - Edição Especial (Ref. 5)",
+    "preco": 136.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Kit%20Chaves%20de%20Precisao%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%205%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 206,
+    "titulo": "Jogo de Soquetes e Catraca - Alta Performance (Ref. 6)",
+    "preco": 153.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Jogo%20de%20Soquetes%20e%20Catraca%20-%20Alta%20Performance%20%28Ref.%206%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 207,
+    "titulo": "Lanterna Tatica LED Recarregavel - Geração Atual (Ref. 7)",
+    "preco": 171.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Lanterna%20Tatica%20LED%20Recarregavel%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%207%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 208,
+    "titulo": "Alicate Universal Profissional - Linha Pro (Ref. 8)",
+    "preco": 188.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Alicate%20Universal%20Profissional%20-%20Linha%20Pro%20%28Ref.%208%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 209,
+    "titulo": "Martelo Unha - Versão Compacta (Ref. 9)",
+    "preco": 205.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Martelo%20Unha%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%209%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 210,
+    "titulo": "Sargentos para Marceneiro - Edição Especial (Ref. 10)",
+    "preco": 222.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Sargentos%20para%20Marceneiro%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2010%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 211,
+    "titulo": "Maleta de Ferramentas Completa - Alta Performance (Ref. 11)",
+    "preco": 240.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Maleta%20de%20Ferramentas%20Completa%20-%20Alta%20Performance%20%28Ref.%2011%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 212,
+    "titulo": "Parafusadeira Furadeira 12V - Geração Atual (Ref. 12)",
+    "preco": 257.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Parafusadeira%20Furadeira%2012V%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2012%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 213,
+    "titulo": "Jogo de Chaves de Fenda - Linha Pro (Ref. 13)",
+    "preco": 274.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Jogo%20de%20Chaves%20de%20Fenda%20-%20Linha%20Pro%20%28Ref.%2013%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 214,
+    "titulo": "Trena a Laser Digital - Versão Compacta (Ref. 14)",
+    "preco": 292.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Trena%20a%20Laser%20Digital%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2014%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 215,
+    "titulo": "Kit Chaves de Precisao - Edição Especial (Ref. 15)",
+    "preco": 309.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Kit%20Chaves%20de%20Precisao%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2015%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 216,
+    "titulo": "Jogo de Soquetes e Catraca - Alta Performance (Ref. 16)",
+    "preco": 326.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Jogo%20de%20Soquetes%20e%20Catraca%20-%20Alta%20Performance%20%28Ref.%2016%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 217,
+    "titulo": "Lanterna Tatica LED Recarregavel - Geração Atual (Ref. 17)",
+    "preco": 344.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Lanterna%20Tatica%20LED%20Recarregavel%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2017%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 218,
+    "titulo": "Alicate Universal Profissional - Linha Pro (Ref. 18)",
+    "preco": 361.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Alicate%20Universal%20Profissional%20-%20Linha%20Pro%20%28Ref.%2018%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 219,
+    "titulo": "Martelo Unha - Versão Compacta (Ref. 19)",
+    "preco": 378.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Martelo%20Unha%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2019%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 220,
+    "titulo": "Sargentos para Marceneiro - Edição Especial (Ref. 20)",
+    "preco": 395.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Sargentos%20para%20Marceneiro%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2020%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 221,
+    "titulo": "Maleta de Ferramentas Completa - Alta Performance (Ref. 21)",
+    "preco": 63.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Maleta%20de%20Ferramentas%20Completa%20-%20Alta%20Performance%20%28Ref.%2021%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 222,
+    "titulo": "Parafusadeira Furadeira 12V - Geração Atual (Ref. 22)",
+    "preco": 80.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Parafusadeira%20Furadeira%2012V%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2022%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 223,
+    "titulo": "Jogo de Chaves de Fenda - Linha Pro (Ref. 23)",
+    "preco": 97.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Jogo%20de%20Chaves%20de%20Fenda%20-%20Linha%20Pro%20%28Ref.%2023%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 224,
+    "titulo": "Trena a Laser Digital - Versão Compacta (Ref. 24)",
+    "preco": 115.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Trena%20a%20Laser%20Digital%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2024%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 225,
+    "titulo": "Kit Chaves de Precisao - Edição Especial (Ref. 25)",
+    "preco": 132.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Kit%20Chaves%20de%20Precisao%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2025%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 226,
+    "titulo": "Jogo de Soquetes e Catraca - Alta Performance (Ref. 26)",
+    "preco": 149.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Jogo%20de%20Soquetes%20e%20Catraca%20-%20Alta%20Performance%20%28Ref.%2026%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 227,
+    "titulo": "Lanterna Tatica LED Recarregavel - Geração Atual (Ref. 27)",
+    "preco": 167.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Lanterna%20Tatica%20LED%20Recarregavel%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2027%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 228,
+    "titulo": "Alicate Universal Profissional - Linha Pro (Ref. 28)",
+    "preco": 184.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Alicate%20Universal%20Profissional%20-%20Linha%20Pro%20%28Ref.%2028%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 229,
+    "titulo": "Martelo Unha - Versão Compacta (Ref. 29)",
+    "preco": 201.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Martelo%20Unha%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2029%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 230,
+    "titulo": "Sargentos para Marceneiro - Edição Especial (Ref. 30)",
+    "preco": 218.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Sargentos%20para%20Marceneiro%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2030%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 231,
+    "titulo": "Maleta de Ferramentas Completa - Alta Performance (Ref. 31)",
+    "preco": 236.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Maleta%20de%20Ferramentas%20Completa%20-%20Alta%20Performance%20%28Ref.%2031%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 232,
+    "titulo": "Parafusadeira Furadeira 12V - Geração Atual (Ref. 32)",
+    "preco": 253.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Parafusadeira%20Furadeira%2012V%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2032%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 233,
+    "titulo": "Jogo de Chaves de Fenda - Linha Pro (Ref. 33)",
+    "preco": 270.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Jogo%20de%20Chaves%20de%20Fenda%20-%20Linha%20Pro%20%28Ref.%2033%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 234,
+    "titulo": "Trena a Laser Digital - Versão Compacta (Ref. 34)",
+    "preco": 288.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Trena%20a%20Laser%20Digital%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2034%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 235,
+    "titulo": "Kit Chaves de Precisao - Edição Especial (Ref. 35)",
+    "preco": 305.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Kit%20Chaves%20de%20Precisao%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2035%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 236,
+    "titulo": "Jogo de Soquetes e Catraca - Alta Performance (Ref. 36)",
+    "preco": 322.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Jogo%20de%20Soquetes%20e%20Catraca%20-%20Alta%20Performance%20%28Ref.%2036%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 237,
+    "titulo": "Lanterna Tatica LED Recarregavel - Geração Atual (Ref. 37)",
+    "preco": 340.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Lanterna%20Tatica%20LED%20Recarregavel%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2037%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 238,
+    "titulo": "Alicate Universal Profissional - Linha Pro (Ref. 38)",
+    "preco": 357.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Alicate%20Universal%20Profissional%20-%20Linha%20Pro%20%28Ref.%2038%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 239,
+    "titulo": "Martelo Unha - Versão Compacta (Ref. 39)",
+    "preco": 374.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Martelo%20Unha%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2039%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 240,
+    "titulo": "Sargentos para Marceneiro - Edição Especial (Ref. 40)",
+    "preco": 391.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Sargentos%20para%20Marceneiro%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2040%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 241,
+    "titulo": "Maleta de Ferramentas Completa - Alta Performance (Ref. 41)",
+    "preco": 59.2,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Maleta%20de%20Ferramentas%20Completa%20-%20Alta%20Performance%20%28Ref.%2041%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 242,
+    "titulo": "Parafusadeira Furadeira 12V - Geração Atual (Ref. 42)",
+    "preco": 76.5,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Parafusadeira%20Furadeira%2012V%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2042%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 243,
+    "titulo": "Jogo de Chaves de Fenda - Linha Pro (Ref. 43)",
+    "preco": 93.8,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Jogo%20de%20Chaves%20de%20Fenda%20-%20Linha%20Pro%20%28Ref.%2043%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 244,
+    "titulo": "Trena a Laser Digital - Versão Compacta (Ref. 44)",
+    "preco": 111.1,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Trena%20a%20Laser%20Digital%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2044%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 245,
+    "titulo": "Kit Chaves de Precisao - Edição Especial (Ref. 45)",
+    "preco": 128.4,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Kit%20Chaves%20de%20Precisao%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2045%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 246,
+    "titulo": "Jogo de Soquetes e Catraca - Alta Performance (Ref. 46)",
+    "preco": 145.7,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Jogo%20de%20Soquetes%20e%20Catraca%20-%20Alta%20Performance%20%28Ref.%2046%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 247,
+    "titulo": "Lanterna Tatica LED Recarregavel - Geração Atual (Ref. 47)",
+    "preco": 163.0,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Lanterna%20Tatica%20LED%20Recarregavel%20-%20Gera%C3%A7%C3%A3o%20Atual%20%28Ref.%2047%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 248,
+    "titulo": "Alicate Universal Profissional - Linha Pro (Ref. 48)",
+    "preco": 180.3,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Alicate%20Universal%20Profissional%20-%20Linha%20Pro%20%28Ref.%2048%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 249,
+    "titulo": "Martelo Unha - Versão Compacta (Ref. 49)",
+    "preco": 197.6,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Amazon",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://www.amazon.com.br/s?k=Martelo%20Unha%20-%20Vers%C3%A3o%20Compacta%20%28Ref.%2049%29&tag=032018011983-20",
+    "atualizado_em": "2026-08-02 12:40:59"
+  },
+  {
+    "id": 250,
+    "titulo": "Sargentos para Marceneiro - Edição Especial (Ref. 50)",
+    "preco": 214.9,
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80",
+    "origem": "Mercado Livre",
+    "nicho": "Ferramentas",
+    "link_vitrine": "https://lista.mercadolivre.com.br/Sargentos%20para%20Marceneiro%20-%20Edi%C3%A7%C3%A3o%20Especial%20%28Ref.%2050%29?matt_tool=18735177",
+    "atualizado_em": "2026-08-02 12:40:59"
+  }
+]

@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Zenkato - Os Produtos Mais Desejados da Internet!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+        @import url('https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css');
+
+        :root {
+            --primary: #ff4757;
+            --secondary: #ff6b81;
+            --accent: #2ed573;
+            --dark: #2f3542;
+            --light: #f1f2f6;
+            --yellow: #ffa502;
+            --card-bg: #ffffff;
+            --text-main: #333333;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+        }
+
+        .top-banner {
+            background: #2f3542;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .top-banner span {
+            color: var(--yellow);
+        }
+
+        header {
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: multiply;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(255, 71, 87, 0.3);
+            transition: background 0.5s ease-in-out;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 3.2rem;
+            font-weight: 800;
+            text-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            letter-spacing: -1px;
+        }
+
+        header h1 span {
+            color: var(--yellow);
+        }
+
+        header p {
+            margin: 0 auto 25px auto;
+            font-size: 1.2rem;
+            max-width: 700px;
+            opacity: 1;
+            font-weight: 400;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 18px 25px 18px 55px;
+            border-radius: 50px;
+            border: none;
+            font-size: 1.1rem;
+            font-family: 'Poppins', sans-serif;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            outline: none;
+            color: var(--dark);
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+            transform: scale(1.02);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 22px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.4rem;
+            color: #a4b0be;
+        }
+
+        .badge-destaque {
+            display: inline-block;
+            background: var(--yellow);
+            color: #000;
+            font-weight: 700;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        /* MENU DE FILTRO POR NICHO/CATEGORIAS */
+        .categorias-bar {
+            max-width: 1200px;
+            margin: 25px auto 0 auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cat-btn {
+            background: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--dark);
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+        }
+
+        .cat-btn:hover, .cat-btn.active {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(255, 71, 87, 0.3);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #ddd;
+            padding-bottom: 15px;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--dark);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 0;
+        }
+
+        .section-title i {
+            color: var(--yellow);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            border: 3px solid transparent;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-15px) scale(1.01);
+            box-shadow: 0 20px 40px rgba(255, 71, 87, 0.2);
+            border-color: var(--secondary);
+        }
+
+        .discount-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--primary);
+            color: white;
+            font-weight: 900;
+            font-size: 0.9rem;
+            padding: 8px 15px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(255, 71, 87, 0.4);
+            z-index: 2;
+        }
+
+        .card-img-container {
+            height: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            position: relative;
+            padding: 10px;
+        }
+
+        .card img {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover img {
+            transform: scale(1.1);
+        }
+
+        .origem-tag {
+            align-self: flex-start;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 5px 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .tag-amazon {
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+        }
+
+        .tag-mercado-livre {
+            background-color: #cce5ff;
+            color: #004085;
+            border: 1px solid #bfdbfe;
+        }
+
+        .card h3 {
+            font-size: 1.1rem;
+            margin: 0 0 20px 0;
+            color: var(--dark);
+            line-height: 1.5;
+            height: 52px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            font-weight: 600;
+        }
+
+        .price-box {
+            margin-bottom: 20px;
+        }
+
+        .preco-antigo {
+            font-size: 0.9rem;
+            color: #a4b0be;
+            text-decoration: line-through;
+            margin: 0 0 5px 0;
+        }
+
+        .preco {
+            font-size: 1.6rem;
+            color: var(--accent);
+            font-weight: 900;
+            margin: 0;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 18px 25px;
+            text-decoration: none;
+            border-radius: 15px;
+            font-weight: 800;
+            font-size: 1.1rem;
+            text-align: center;
+            box-shadow: 0 8px 15px rgba(255, 71, 87, 0.3);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            filter: brightness(1.1);
+            box-shadow: 0 12px 20px rgba(255, 71, 87, 0.5);
+            transform: translateY(-3px);
+        }
+
+        .btn i {
+            font-size: 1.4rem;
+        }
+
+        .loading, .error {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 80px;
+            color: #747d8c;
+            font-size: 1.3rem;
+            font-weight: 700;
+            background: var(--card-bg);
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 30px;
+            color: #fff;
+            font-size: 1rem;
+            background: #2f3542;
+            margin-top: 100px;
+            border-top: 5px solid var(--primary);
+        }
+
+        footer p {
+            margin: 10px 0;
+            opacity: 0.9;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="top-banner">
+        🚀 Frete Grátis e Ofertas Relâmpago Atualizadas em Tempo Real! <span style="margin-left: 5px;">⚡ Aproveite Agora ⚡</span>
+    </div>
+
+    <header id="mainHeader">
+        <div class="badge-destaque">✨ O Garimpo Oficial da Internet</div>
+        <h1> Zenkato </span></h1>
+        <p>Os produtos mais exclusivos e vendidos da internet reunidos em um só lugar!</p>
+        
+        <div class="search-container">
+            <i class="ri-search-line search-icon"></i>
+            <input type="text" id="searchInput" class="search-input" placeholder="O que você está procurando hoje? (Ex: Fone, Smartphone...)">
+        </div>
+    </header>
+
+    <!-- BARRA DE CATEGORIAS / NICHOS RENTÁVEIS -->
+    <div class="categorias-bar">
+        <button class="cat-btn active" onclick="filtrarCategoria('todos', this)"><i class="ri-apps-line"></i> Todos</button>
+        <button class="cat-btn" onclick="filtrarCategoria('smart', this)"><i class="ri-home-wifi-line"></i> Casa Inteligente</button>
+        <button class="cat-btn" onclick="filtrarCategoria('beleza', this)"><i class="ri-heart-3-line"></i> Beleza & Skincare</button>
+        <button class="cat-btn" onclick="filtrarCategoria('fitness', this)"><i class="ri-run-line"></i> Fitness & Office</button>
+        <button class="cat-btn" onclick="filtrarCategoria('pet', this)"><i class="ri-shield-user-line"></i> Pets</button>
+        <button class="cat-btn" onclick="filtrarCategoria('ferramentas', this)"><i class="ri-tools-line"></i> Ferramentas</button>
+    </div>
+
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title"><i class="ri-sparkling-fill"></i> Achados Imperdíveis do Momento</h2>
+        </div>
+        
+        <div class="grid" id="vitrine">
+            <div class="loading"><i class="ri-loader-4-line ri-spin" style="font-size: 2rem; vertical-align: middle;"></i> 🔍 Buscando os achados mais incríveis do dia para você...</div>
+        </div>
+    </div>
+
+    <footer>
+        <p style="font-weight: 700; font-size: 1.2rem;">✨ Zenkato </p>
+        <p>💡 Nosso propósito é poupar o seu tempo e o seu dinheiro: reunimos em um só lugar tudo o que está em alta na internet para você comprar com total segurança, praticidade e os preços mais baixos do mercado.</p>
+        <p style="margin-top: 30px; font-size: 0.85rem; opacity: 0.7;">&copy; 2026 - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // LISTA COM 50 IMAGENS ROTATIVAS
+        const imagensCabecalho = [
+            'https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1555529771-835f59fc5efe?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1573855619003-97b4799d28ba?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1556742049-0a67d553c235?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1479064555552-3ef4979f8908?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1542744094-3a31246267d0?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1556740758-90de374c12ad?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1556742111-a30eb076da26?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1543269664-56d93c1b41a6?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1556742212-5b321f3c4d1b?q=80&w=1200&auto=format&fit=crop',
+            'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=1200&auto=format&fit=crop'
+        ];
+
+        const imagemSorteada = imagensCabecalho[Math.floor(Math.random() * imagensCabecalho.length)];
+        const headerEl = document.getElementById('mainHeader');
+        headerEl.style.background = `linear-gradient(to bottom, rgba(255, 71, 87, 0.85), rgba(47, 53, 66, 0.9)), url('${imagemSorteada}')`;
+        headerEl.style.backgroundSize = 'cover';
+        headerEl.style.backgroundPosition = 'center';
+        headerEl.style.backgroundBlendMode = 'multiply';
+
+        let todosProdutos = [];
+        let categoriaAtual = 'todos';
+
+        fetch('vitrine_produtos.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Não foi possível carregar o arquivo de produtos.');
+                }
+                return response.json();
+            })
+            .then(produtos => {
+                todosProdutos = produtos;
+                exibirProdutos(todosProdutos);
+            })
+            .catch(error => {
+                const container = document.getElementById('vitrine');
+                container.innerHTML = '<div class="error">⚠️ Erro ao carregar os produtos. Certifique-se de que o arquivo <code>vitrine_produtos.json</code> está gerado na mesma pasta.</div>';
+                console.error(error);
+            });
+
+        function exibirProdutos(produtosParaExibir) {
+            const container = document.getElementById('vitrine');
+            container.innerHTML = '';
+            
+            if (produtosParaExibir.length === 0) {
+                container.innerHTML = '<div class="loading">🔍 Nenhum produto encontrado. Tente buscar outro termo ou categoria!</div>';
+                return;
+            }
+
+            produtosParaExibir.forEach(p => {
+                const isAmazon = p.origem.toLowerCase().includes('amazon');
+                const tagClass = isAmazon ? 'tag-amazon' : 'tag-mercado-livre';
+                const origemIcon = isAmazon ? 'ri-amazon-fill' : 'ri-shopping-cart-2-fill';
+                
+                const precoAntigo = (p.preco * 1.25).toFixed(2);
+                
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <div class="discount-badge">-20% OFF</div>
+                    <div>
+                        <span class="origem-tag ${tagClass}"><i class="${origemIcon}"></i> ${p.origem}</span>
+                        <div class="card-img-container">
+                            <img src="${p.imagem}" alt="${p.titulo}" loading="lazy">
+                        </div>
+                        <h3>${p.titulo}</h3>
+                    </div>
+                    <div>
+                        <div class="price-box">
+                            <p class="preco-antigo">R$ ${precoAntigo.replace('.', ',')}</p>
+                            <div class="preco">R$ ${p.preco.toFixed(2).replace('.', ',')}</div>
+                        </div>
+                        <a href="${p.link_vitrine}" class="btn" target="_blank" rel="noopener noreferrer">
+                            <i class="ri-shopping-cart-fill"></i> Ver na ${p.origem}
+                        </a>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // FILTRO POR CATEGORIA
+        function filtrarCategoria(categoria, elementoBtn) {
+            categoriaAtual = categoria;
+            
+            document.querySelectorAll('.cat-btn').forEach(btn => btn.classList.remove('active'));
+            elementoBtn.classList.add('active');
+
+            aplicarFiltros();
+        }
+
+        // SISTEMA DE PESQUISA E FILTRO UNIFICADO
+        const searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('input', () => {
+            aplicarFiltros();
+        });
+
+        function aplicarFiltros() {
+            const termo = searchInput.value.toLowerCase().trim();
+
+            let filtrados = todosProdutos.filter(p => {
+                const tituloMatch = p.titulo.toLowerCase().includes(termo);
+                const origemMatch = p.origem.toLowerCase().includes(termo);
+                return tituloMatch || origemMatch;
+            });
+
+            if (categoriaAtual !== 'todos') {
+                filtrados = filtrados.filter(p => {
+                    const titulo = p.titulo.toLowerCase();
+                    if (categoriaAtual === 'smart') return titulo.includes('smart') || titulo.includes('lampada') || titulo.includes('alexa') || titulo.includes('camera') || titulo.includes('robo');
+                    if (categoriaAtual === 'beleza') return titulo.includes('skincare') || titulo.includes('secador') || titulo.includes('beleza') || titulo.includes('aparador') || titulo.includes('maquiagem');
+                    if (categoriaAtual === 'fitness') return titulo.includes('fone') || titulo.includes('cadeira') || titulo.includes('creatina') || titulo.includes('garrafa') || titulo.includes('notebook') || titulo.includes('treino');
+                    if (categoriaAtual === 'pet') return titulo.includes('pet') || titulo.includes('cachorro') || titulo.includes('gato') || titulo.includes('comedouro') || titulo.includes('racao');
+                    if (categoriaAtual === 'ferramentas') return titulo.includes('parafusadeira') || titulo.includes('ferramenta') || titulo.includes('chave') || titulo.includes('furadeira');
+                    return true;
+                });
+            }
+
+            exibirProdutos(filtrados);
+        }
+    </script>
+
+</body>
+</html>
