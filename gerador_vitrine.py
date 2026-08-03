@@ -37,33 +37,71 @@ NICHOS = {
     ]
 }
 
-# Dicionário vazio para guardar as imagens que o robô já encontrou (Cache)
-# Isso impede que ele pesquise no buscador a mesma foto repetidas vezes
+# Caches para não sobrecarregar o buscador
 CACHE_IMAGENS = {}
+CACHE_LINKS = {}
 
 def buscar_imagem_automatica(nome_produto):
-    # Se já pesquisamos esse produto antes, usa a foto salva no cache
     if nome_produto in CACHE_IMAGENS:
         return CACHE_IMAGENS[nome_produto]
     
     print(f"  -> Buscando foto na internet para: {nome_produto}...")
     try:
-        # Busca imagens no DuckDuckGo
         resultados = DDGS().images(keywords=nome_produto, max_results=1)
-        
         if resultados:
             url_imagem = resultados[0]['image']
             CACHE_IMAGENS[nome_produto] = url_imagem
-            time.sleep(1.5)  # Pausa de 1.5s para não sobrecarregar o buscador e evitar bloqueio
+            time.sleep(1.5)
             return url_imagem
-            
     except Exception as e:
         print(f"  [!] Erro ao buscar foto de {nome_produto}: {e}")
     
-    # Se falhar ou não achar, usa um placeholder genérico
     url_fallback = "https://via.placeholder.com/500?text=Imagem+Indisponivel"
     CACHE_IMAGENS[nome_produto] = url_fallback
     return url_fallback
+
+def buscar_link_direto(nome_produto, origem):
+    chave_cache = f"{origem}_{nome_produto}"
+    if chave_cache in CACHE_LINKS:
+        return CACHE_LINKS[chave_cache]
+    
+    print(f"  -> Buscando link de compra direta ({origem}) para: {nome_produto}...")
+    try:
+        # Força o buscador a procurar páginas de produtos específicos dentro dos sites
+        if origem == "Amazon":
+            query = f"site:amazon.com.br/dp/ {nome_produto}"
+        else:
+            query = f"site:produto.mercadolivre.com.br {nome_produto}"
+            
+        resultados = DDGS().text(keywords=query, max_results=1)
+        
+        if resultados:
+            url_real = resultados[0]['href']
+            
+            # Injeta a sua tag de afiliado de forma inteligente na URL encontrada
+            separador = "&" if "?" in url_real else "?"
+            
+            if origem == "Amazon":
+                link_final = f"{url_real}{separador}tag={TAG_AMAZON}"
+            else:
+                link_final = f"{url_real}{separador}matt_tool={TAG_MERCADO_LIVRE}"
+                
+            CACHE_LINKS[chave_cache] = link_final
+            time.sleep(1.5) # Pausa de segurança
+            return link_final
+            
+    except Exception as e:
+        print(f"  [!] Erro ao buscar link de {nome_produto}: {e}")
+    
+    # Se der erro na busca, faz o fallback para o link de vitrine/pesquisa
+    termo_url = urllib.parse.quote(nome_produto)
+    if origem == "Amazon":
+        link_fallback = f"https://www.amazon.com.br/s?k={termo_url}&tag={TAG_AMAZON}"
+    else:
+        link_fallback = f"https://lista.mercadolivre.com.br/{termo_url}?matt_tool={TAG_MERCADO_LIVRE}"
+        
+    CACHE_LINKS[chave_cache] = link_fallback
+    return link_fallback
 
 def gerar_vitrine_hibrida():
     produtos = []
@@ -75,22 +113,18 @@ def gerar_vitrine_hibrida():
         for i in range(1, 51):
             base_nome = itens_base[(i - 1) % len(itens_base)]
             
-            # Aqui chamamos o robô de busca de imagens!
+            # Define a origem baseada no loop (Ímpar = Amazon, Par = Mercado Livre)
+            origem = "Amazon" if i % 2 != 0 else "Mercado Livre"
+            
+            # Busca automatizada de imagem e link de compra
             imagem_produto = buscar_imagem_automatica(base_nome)
+            link_afiliado = buscar_link_direto(base_nome, origem)
             
             sufixos = ["Edição Especial", "Linha Pro", "Alta Performance", "Versão Compacta", "Geração Atual"]
             sufixo_escolhido = sufixos[(i + id_atual) % len(sufixos)]
             
+            # Gera o título fictício (Atenção: o link redirecionará para o produto real)
             titulo = f"{base_nome} - {sufixo_escolhido} (Ref. {i})"
-            termo_url = urllib.parse.quote(titulo)
-            
-            if i % 2 != 0:
-                origem = "Amazon"
-                link_afiliado = f"https://www.amazon.com.br/s?k={termo_url}&tag={TAG_AMAZON}"
-            else:
-                origem = "Mercado Livre"
-                link_afiliado = f"https://lista.mercadolivre.com.br/{termo_url}?matt_tool={TAG_MERCADO_LIVRE}"
-            
             preco_fake = round(49.90 + ((i * 17.3) % 350.0), 2)
 
             produtos.append({
@@ -108,7 +142,7 @@ def gerar_vitrine_hibrida():
     return produtos
 
 if __name__ == "__main__":
-    print("Iniciando o robô gerador de vitrine e buscador de imagens...")
+    print("Iniciando o robô gerador de vitrine e buscador de links...")
     vitrine_completa = gerar_vitrine_hibrida()
     
     with open("vitrine_produtos.json", "w", encoding="utf-8") as f:
